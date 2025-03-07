@@ -1,0 +1,88 @@
+ /* Body and background styling */
+ body {
+    background-image: url('leaf.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Container styling */
+.container {
+    background-color: rgba(233, 236, 251, 0.1);
+    border: 8px outset rgb(36, 60, 37);
+    width: 560px;
+    height:614px;
+    margin: 10px auto;
+    padding: 0px 40px;
+    color: white;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+/* Header and label styling */
+h1.centre {
+    text-align: center;
+    margin: 35px 0;
+}
+
+label {
+    font-size: 25px;
+    display: inline-block;
+    width: 48%;
+    margin-bottom: 10px;
+
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    border: 4px inset rgb(36, 60, 37);
+    border-radius: 8px;
+    background-color: #7cad84;
+    width: 40%;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-left: 24px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+/* Select box styling */
+select {
+    width: 40%;
+    padding: 5px;
+}
+
+/* Button styling */
+.button {
+    font-size: 35px;
+    width: 60%;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    margin-left: 95px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+    .button:hover {
+        background-color: rgb(53, 142, 234);
+        color:rgb(255 106 0);
+    }
+
+/* Hyperlink styling */
+h2 {
+    text-align: center;
+}
+
+    h2 a {
+        color: darkblue;
+        text-decoration: none;
+    }
+
+        h2 a:hover {
+            text-decoration: underline;
+        }
